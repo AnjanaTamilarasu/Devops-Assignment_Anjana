@@ -1,0 +1,6 @@
+.terraform/
+*.tfstate*
+keys/
+*.pem
+backend.hcl
+terraform.tfvars.secret

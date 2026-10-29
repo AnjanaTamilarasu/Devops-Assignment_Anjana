@@ -1,0 +1,12 @@
+account_a_id = "000000000000"
+account_b_id = "111111111111"
+profile_a    = "default"
+
+ecr_repo         = "my-app"
+ecs_cluster      = "my-cluster"
+ecs_service      = "my-service"
+artifacts_bucket = "my-build-artifacts-bucket"
+ecs_task_role_arns = [
+  "arn:aws:iam::000000000000:role/my-app-task-role",
+  "arn:aws:iam::000000000000:role/my-app-task-execution-role",
+]
