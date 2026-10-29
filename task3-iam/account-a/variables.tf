@@ -11,7 +11,7 @@ variable "account_a_id" { type = string }
 variable "account_b_id" { type = string }
 variable "group2_users" {
   type    = list(string)
-  default = ["alice", "bob"]
+  default = ["user1", "user2"]
 }
 
 # Task 4 inputs
